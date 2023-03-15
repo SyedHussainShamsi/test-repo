@@ -1,2 +1,2 @@
-echo ${{vars.TEST}}>> Test
+echo ${{vars.TEST}} >>Test
 cat Test

@@ -28,5 +28,5 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-          echo ${{vars.TEST}} >> test
-          cat test
+          chmod +x TEST.sh
+          ./TEST.sh
